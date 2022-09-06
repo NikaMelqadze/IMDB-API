@@ -19,7 +19,7 @@ namespace IMDB.Infrastructure.Services
             using (var smtp = new SmtpClient("smtp.gmail.com", 587))
             {
                 smtp.UseDefaultCredentials = false;
-                smtp.Credentials = new System.Net.NetworkCredential("nika.melqadze@gmail.com", "jhecsayxglacgdtf");
+                smtp.Credentials = new System.Net.NetworkCredential("nika.melqadze@gmail.com", "XXX");
                 smtp.DeliveryMethod = SmtpDeliveryMethod.Network;
                 smtp.EnableSsl = true;
 
